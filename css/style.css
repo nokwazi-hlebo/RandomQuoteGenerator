@@ -1,0 +1,123 @@
+body { 
+    background: 
+   linear-gradient(
+      rgba(225, 0, 0, 0.0), 
+      rgba(255, 0, 0, 0.1)
+    ),
+    url(https://i.imgur.com/35Lun7R.jpg) no-repeat; 
+    background-size: cover; 
+    display: flex;
+    height: auto !important;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/*
+ *
+ * Header Section 
+ * 
+ */
+
+.header-title {
+  color: white;
+  font-family: arial;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+/*
+ *
+ * Quote Section 
+ * 
+ */
+
+#quote-container {
+  background-color: #000;
+  padding: 2rem;
+  margin: 100px auto;
+  width: 70%;
+  min-width: 300px;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.quote-align {
+  color: white;
+  text-align: center;
+}
+
+.quote-text {
+  color: white;
+}
+
+.quote-icon {
+  padding-bottom: 0.1rem;
+}
+
+.quote-src {
+  color: white;
+  font-size: 1.1rem;
+}
+
+
+#button1 , #button2 {
+display:inline-block;
+/**other codes**/
+}
+
+.btn-align {
+  text-align: center;
+}
+
+.btn {
+  font-family: 'Arial', cursive;
+  position:relative;
+  margin: 10px;
+  background-color: #00CED1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.twitter {
+  font-family: 'Arial', cursive;
+  color: white;
+  position: bottom-relative;
+  margin: 10px;
+    background-color: #00CED1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+}
+
+/*
+ *
+ * Footer Section 
+ * 
+ */
+
+#footer {
+  color: none;
+}
+
+.social {
+  color: white;
+  padding-right: 0.5rem;
+}
